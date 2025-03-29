@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>فروشگاه گلشن</title>
+    <link rel="shortcut icon" href="./Assets/images/Vector.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/438ce4c5f6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="menu">
+          <i class="bi bi-list"></i>
+        </div>
+        <div class="left-header">
+          <span>Golshan</span>
+          <img src="./Assets/images/Vector.png" />
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#">صفحه اصلی</a></li>
+            <li><a href="#">محصولات</a></li>
+            <li><a href="#">همکاری</a></li>
+            <li><a href="#">وبلاگ</a></li>
+          </ul>
+        </nav>
+        <div class="right-header">
+          <i class="bi bi-heart"></i>
+
+          <i class="bi bi-cart"></i>
+          <button>
+            <i class="bi bi-box-arrow-in-left" id="i-button"></i>
+            <p>ورود/ ثبت نام</p>
+          </button>
+        </div>
+      </header>
+      <main>
+        <section class="section-banner">
+          <div class="banner">
+            <div class="left-banner">
+              <p>زندگی را زیباتر کنید</p>
+              <span>
+                سفری به دنیایی از
+                <br />
+                عــشـق و شـگفـتی
+              </span>
+              <button class="style-button">
+                سفارش سریع
+                <i class="fa-solid fa-arrow-left-long"></i>
+              </button>
+              <div class="left-banner-icon">
+                <i class="fa-solid fa-arrow-trend-up"></i>
+              </div>
+            </div>
+            <div class="image-banner"></div>
+
+            <div class="right-banner">
+              <div class="item-send">
+                <div class="item-icon">
+                  <i class="fa fas fa-truck" id="truck-icon"></i>
+                </div>
+                <div class="item-text">
+                  <p>ارسال رایگان</p>
+                  <span>برای سفارشات بالای 300هزار تومان</span>
+                </div>
+              </div>
+              <div class="item-send">
+                <div class="item-icon">
+                  <i class="fa fa-duotone fa-award" id="doutone-icon"></i>
+                </div>
+                <div class="item-text">
+                  <p>ضمانت</p>
+                  <span> 100درصد طراوت و شادابی گل ها </span>
+                </div>
+              </div>
+
+              <div class="item-send">
+                <div class="item-icon">
+                  <i class="fa far fa-credit-card" id="credit-cart-icon"></i>
+                </div>
+                <div class="item-text">
+                  <p>پرداخت امن</p>
+                  <span>گارانتی بازگشت وجه</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="category-flowers-section">
+          <div class="title-section">
+            <p>
+              <span>دسته بندی</span>
+              گل ها
+            </p>
+
+            <div class="line-title-section"></div>
+          </div>
+
+          <div class="line-category-flowers"></div>
+
+          <div class="category-flowers">
+            <div class="arrow-bestselling">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <div class="flower" id="flower-display">
+              <img src="./Assets/images/groupflower1.png" />
+              <p>دسته گل</p>
+            </div>
+            <div class="flower">
+              <img src="./Assets/images/groupflower2 .png" />
+              <p>هدیه سازمانی</p>
+            </div>
+            <div class="flower">
+              <img src="./Assets/images/groupflower3 .png" />
+              <p>باکس گل</p>
+            </div>
+            <div class="flower" id="flower-display">
+              <img src="./Assets/images/groupflower4.png" />
+              <p>گیاه آپارتمانی</p>
+            </div>
+            <div class="flower">
+              <img src="./Assets/images/groupflower5.png" />
+              <p>سبد گل</p>
+            </div>
+            <div class="flower" id="flower-display">
+              <img src="./Assets/images/groupflower6 .png" />
+              <p>گل جاودان</p>
+            </div>
+
+            <div class="arrow-bestselling">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+          </div>
+          <button>
+            مشاهده همه
+            <i class="fa-solid fa-arrow-left-long"></i>
+          </button>
+        </section>
+        <section class="category-bestselling-section">
+          <div class="title-section">
+            <p>
+              <span>پرفروش ترین</span>
+              محصولات
+            </p>
+
+            <div class="line-title-section"></div>
+          </div>
+          <div class="line-category-bestselling-pro"></div>
+          <div class="categories-bestselling-pro">
+            <div class="arrow-bestselling">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div
+              class="category-bestselling-pro"
+              id="category-bestselling-pro-id"
+            >
+              <div class="box-image">
+                <img src="./Assets/images/bestselling (1).png" />
+              </div>
+              <h2>باکس گل</h2>
+              <div class="price">
+                <button>
+                  <p>سفارش</p>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+                <p>
+                  <span>560,000</span>
+                  تومان
+                </p>
+              </div>
+            </div>
+            <div
+              class="category-bestselling-pro"
+              id="category-bestselling-pro-id"
+            >
+              <div class="box-image">
+                <img src="./Assets/images/bestselling (2).png" />
+              </div>
+              <h2>باکس گل</h2>
+              <div class="price">
+                <button>
+                  <p>سفارش</p>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+                <p>
+                  <span>560,000</span>
+                  تومان
+                </p>
+              </div>
+            </div>
+            <div class="category-bestselling-pro">
+              <div class="box-image">
+                <img src="./Assets/images/bestselling (3).png" />
+              </div>
+              <h2>باکس گل</h2>
+              <div class="price">
+                <button>
+                  <p>سفارش</p>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+                <p>
+                  <span>560,000</span>
+                  تومان
+                </p>
+              </div>
+            </div>
+            <div class="category-bestselling-pro">
+              <div class="box-image">
+                <img src="./Assets/images/bestselling (4).png" />
+              </div>
+              <h2>باکس گل</h2>
+              <div class="price">
+                <button>
+                  <p>سفارش</p>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+                <p>
+                  <span>560,000</span>
+                  تومان
+                </p>
+              </div>
+            </div>
+            <div class="arrow-bestselling">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+          </div>
+          <div class="buttuns-bottom">
+            <button>
+              مشاهده همه
+              <i class="fa-solid fa-arrow-left-long"></i>
+            </button>
+            <div class="arrows-responsives">
+              <div class="arrow-responsives">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              <div class="arrow-responsives">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="gallery-section">
+          <div class="title-section">
+            <p>
+              <span>گالری</span>
+              گلشن
+            </p>
+            <div class="line-title-section"></div>
+          </div>
+          <div class="galleries">
+            <div class="gallery-box" id="item5">
+              <img src="./Assets/images/wedding-1854074_640.jpg" alt="" />
+            </div>
+            <div class="gallery-box" id="item2">
+              <img src="./Assets/images/flower-5137688_640.jpg" alt="" />
+            </div>
+            <div class="gallery-box" id="item3">
+              <img src="./Assets/images/gallery4.jpg" alt="" />
+            </div>
+            <div class="gallery-box" id="item4">
+              <img src="./Assets/images/vintage-van-4288994_640.jpg" alt="" />
+            </div>
+          </div>
+          <button>
+            مشاهده همه
+            <i class="fa-solid fa-arrow-left-long"></i>
+          </button>
+        </section>
+        <section class="more-categories-section">
+          <div class="more-categories">
+            <div class="more-category">
+              <div class="more-box">
+                <img src="./Assets/images/discount (1) 1.png" />
+              </div>
+              <h4>تخفیف</h4>
+            </div>
+            <div class="more-category">
+              <div class="more-box">
+                <img src="./Assets/images/lowest-price 1.png" />
+              </div>
+              <h4>محصول اقتصادی</h4>
+            </div>
+            <div class="more-category">
+              <div class="more-box">
+                <img src="./Assets/images/wheel 1.png" />
+              </div>
+              <h4>قرعه کشی</h4>
+            </div>
+            <div class="more-category">
+              <div class="more-box">
+                <img src="./Assets/images/pot 1.png" />
+              </div>
+              <h4>گلدان ها</h4>
+            </div>
+
+            <div class="more-category">
+              <div class="more-box">
+                <img src="./Assets/images/heart-shaped 1.png" />
+              </div>
+              <h4>ولنتاین</h4>
+            </div>
+          </div>
+        </section>
+        <section class="category-festival-pro-section">
+          <div class="line-category-festival-pro">
+            <div class="title-section">
+              <p>
+                <span>جشنواره</span>
+                محصولات
+              </p>
+
+              <div class="line-title-section"></div>
+            </div>
+          </div>
+
+          <div class="main-categories-festival-pro">
+            <div class="categories-festival-pro">
+              <div class="arrow">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              <div class="ctegory-festival-pro" id="ctegory-festival-pro-style">
+                <div class="festival-box-image">
+                  <img src="./Assets/images/beuty-girl.png" />
+                </div>
+                <h2>باکس گل خاطره</h2>
+                <div class="price-festival">
+                  <button>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <div>
+                    <p>
+                      <span>560,000</span>
+                      تومان
+                    </p>
+                    <p>
+                      <del>
+                        <span>560,000</span>
+                        تومان
+                      </del>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ctegory-festival-pro">
+                <div class="festival-box-image">
+                  <img
+                    src="./Assets/images/beautiful-flower-bouquet-arrangement-design-transparent-background_1121362-18425-removebg-preview (1).png"
+                  />
+                </div>
+                <h2>باکس گل خاطره</h2>
+                <div class="price-festival">
+                  <button>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <div>
+                    <p>
+                      <span>560,000</span>
+                      تومان
+                    </p>
+                    <p>
+                      <del>
+                        <span>560,000</span>
+                        تومان
+                      </del>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ctegory-festival-pro">
+                <div class="festival-box-image">
+                  <img
+                    src="./Assets/images/beautiful-flower-bouquet-arrangement-design-transparent-background_1121362-18487-removebg-preview.png"
+                  />
+                </div>
+                <h2>باکس گل خاطره</h2>
+                <div class="price-festival">
+                  <button>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <div>
+                    <p>
+                      <span>560,000</span>
+                      تومان
+                    </p>
+                    <p>
+                      <del>
+                        <span>560,000</span>
+                        تومان
+                      </del>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ctegory-festival-pro">
+                <div class="festival-box-image">
+                  <img
+                    src="./Assets/images/photo_2024-05-02_01-26-40-removebg-preview.png"
+                  />
+                </div>
+                <h2>باکس گل خاطره</h2>
+                <div class="price-festival">
+                  <button>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <div>
+                    <p>
+                      <span>560,000</span>
+                      تومان
+                    </p>
+                    <p>
+                      <del>
+                        <span>560,000</span>
+                        تومان
+                      </del>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="arrow">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+            </div>
+          </div>
+          <div class="buttuns-bottom">
+            <button>
+              مشاهده همه
+              <i class="fa-solid fa-arrow-left-long"></i>
+            </button>
+            <div class="arrows-responsives">
+              <div class="arrow-responsives">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              <div class="arrow-responsives">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="free-counseling-setion">
+          <div class="free-counseling">
+            <div class="free-counseling-image">
+              <img src="./Assets/images/picture.png" />
+            </div>
+
+            <div class="free-counseling-text">
+              <p>مشاوره رایگان</p>
+              <span>بــرای کاربــران جدیــد</span>
+              <button>کلیک کنید</button>
+            </div>
+          </div>
+        </section>
+        <section class="articcle-categories-section">
+          <div class="title-section">
+            <p>
+              <span>خواندنی</span>
+              ها
+            </p>
+            <div class="line-title-section"></div>
+          </div>
+          <div class="article-categories">
+            <div class="article-category">
+              <img src="Assets/images/article (1).jpg" />
+              <h5>خواص گل بر سلامتی روان</h5>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
+                ....
+              </p>
+              <div>
+                <button><i class="bi bi-arrow-up-left"></i></button>
+                <span>مشاهده</span>
+              </div>
+            </div>
+            <div class="article-category">
+              <img src="Assets/images/article (2).jpg" />
+              <h5>خواص گل بر سلامتی روان</h5>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
+                ....
+              </p>
+              <div>
+                <button><i class="bi bi-arrow-up-left"></i></button>
+                <span>مشاهده</span>
+              </div>
+            </div>
+            <div class="article-category">
+              <img src="Assets/images/article (3).jpg" />
+              <h5>خواص گل بر سلامتی روان</h5>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
+                ....
+              </p>
+              <div>
+                <button><i class="bi bi-arrow-up-left"></i></button>
+                <span>مشاهده</span>
+              </div>
+            </div>
+          </div>
+          <button>
+            مشاهده همه
+            <i class="fa-solid fa-arrow-left-long"></i>
+          </button>
+        </section>
+        <section>
+          <div class="gypsophila-flower-content">
+            <div class="gypsophila-flower-text">
+              <p>Gypsophila Flower</p>
+              <p>
+                زیــبــایــی را با<span>ژیــپــسـوفــیــلا</span>
+                <br />
+                تــجـربه کنـیــد
+              </p>
+              <button>
+                سفارش
+                <i class="fa-solid fa-arrow-left-long"></i>
+              </button>
+            </div>
+
+            <div class="gypsophila-flower-picture">
+              <i>&#128966;</i>
+              <div class="relative-images">
+                <img src="./Assets/images/gypso(1).jpg" class="img-2" />
+
+                <img src="./Assets/images/gypso(2).jpg" class="img-1" />
+              </div>
+              <i>&#128966;</i>
+              <i>&#128966;</i>
+            </div>
+          </div>
+        </section>
+        <section class="form-section">
+          <div class="image-side">
+            <img src="./Assets/images/newletter.jpg" />
+          </div>
+          <div class="form-side">
+            <h5>برای جدیدترین خبر ها ثبت نام کن</h5>
+            <span>مطالب , نکات و بحث های الهام بخش در صندوق پستی شما</span>
+
+            <input
+              id="input-email"
+              type="email"
+              placeholder="وارد کردن ایمیل"
+            />
+            <button>ثبت نام</button>
+          </div>
+        </section>
+        <section>
+          <div class="title-section">
+            <p>
+              <span>سوالات</span>
+              کاربــران
+            </p>
+
+            <div class="line-title-section"></div>
+          </div>
+          <div class="question-contents">
+            <div class="question-content" id="border-black">
+              <i class="fa-solid fa-chevron-down"></i>
+              <p>زمان تحویل در تهران چقدر است ؟</p>
+            </div>
+            <div class="question-content" id="border-pink">
+              <div>
+                <i class="fa-solid fa-chevron-up"></i>
+                <p>زمان تحویل در تهران چقدر است ؟</p>
+              </div>
+              <div>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است.لورم ایپسوم متن ساختگی با
+                  تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                  است .
+                </p>
+              </div>
+            </div>
+            <div class="question-content" id="border-black">
+              <i class="fa-solid fa-chevron-down"></i>
+              <p>زمان تحویل در تهران چقدر است ؟</p>
+            </div>
+            <div class="question-content" id="border-black">
+              <i class="fa-solid fa-chevron-down"></i>
+              <p>زمان تحویل در تهران چقدر است ؟</p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-content">
+          <div class="about">
+            <div class="icon-site">
+              <span>Golshan</span>
+              <img src="./Assets/images/Vector.png" />
+            </div>
+            <div class="title">
+              <p>درباره</p>
+              <span>گلشن</span>
+            </div>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت و با استفاده
+              از طراحان گرافیک است چاپگرها و متون
+            </p>
+          </div>
+          <div class="link-best">
+            <div class="title">
+              <p>لینک های</p>
+              <span>مفید</span>
+            </div>
+            <div class="link">
+              <ul>
+                <li><a href="#">خانه</a></li>
+                <li><a href="#">محصولات</a></li>
+                <li><a href="#">گالری</a></li>
+                <li><a href="#">فروشگاه</a></li>
+                <li><a href="#">درباره ما</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="address">
+            <div class="title">
+              <p>نشانی</p>
+              <span>ما</span>
+            </div>
+            <div class="content-address">
+              <p class="p-text">لورم ایپسوم متن ساختگی با تولید از</p>
+              <p class="call">
+                0912025765 <i class="bi bi-telephone-fill"></i>
+              </p>
+              <div>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-pinterest"></i>
+                <i class="bi bi-telegram"></i>
+                <i class="bi bi-whatsapp"></i>
+              </div>
+            </div>
+          </div>
+          <div class="namad">
+            <div class="title">
+              <p>نماد های</p>
+              <span>ما</span>
+            </div>
+            <img src="./Assets/images/rezi 1.png" />
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
