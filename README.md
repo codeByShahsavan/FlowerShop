@@ -1,5 +1,4 @@
-# FlowerShop
-A simple and responsive flower shop website built with HTML &amp; CSS.
+
 🌸 Flower Shop Website
 
 This is a simple flower shop website built using HTML and CSS. The website provides an elegant and responsive design to showcase different types of flowers and floral arrangements.
